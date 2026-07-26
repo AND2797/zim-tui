@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-01-01T00:00:00+00:00
+
+====== Welcome to zim-tui ======
+
+This is a demo notebook for [[https://github.com/AND2797/zim-tui|zim-tui]], a terminal UI for Zim notebooks.
+
+Use it to explore what zim-tui can render. Open any page from the tree on the left.
+
+===== Sections =====
+
+* [[Notes]] — meeting notes and general writing
+* [[Tasks]] — to-do lists with checkboxes
+
+===== Quick markup reference =====
+
+**Bold text** and //italic text// and __underlined text__.
+
+Inline ``code`` looks like this.
+
+A horizontal rule separates sections:
+
+----
+
+===== Links =====
+
+Internal links: [[Notes]] or [[Notes:Meeting Notes|Meeting Notes]]
+
+External links: [[https://zim-wiki.org|Zim Wiki]]

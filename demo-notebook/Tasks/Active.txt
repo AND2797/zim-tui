@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-01-01T00:00:00+00:00
+
+====== Active Tasks ======
+
+===== This week =====
+
+[ ] Write Q1 roadmap
+[ ] Review open pull requests
+[ ] Update onboarding docs
+[x] Set up CI pipeline
+[x] Fix login page bug
+
+===== Backlog =====
+
+[ ] Migrate database to new schema
+[ ] Add export to PDF feature
+[ ] Write integration tests for the API
+[ ] Performance audit — profile p95 latency
+[ ] Update dependencies

@@ -1,0 +1,144 @@
+/* Dracula-ish palette mirrored from styles.py. Widget-level styling only;
+   Rich-rendered content (markup preview, row selection) is styled in code. */
+
+Screen {
+    background: #282A36;
+    color: #F8F8F2;
+}
+
+#body {
+    height: 1fr;
+}
+
+#left {
+    width: 30%;
+    min-width: 20;
+    max-width: 50;
+}
+
+NotebooksPanel {
+    border: round #888888;
+    border-title-color: #888888;
+    border-title-style: bold;
+    height: auto;
+    color: #F8F8F2;
+}
+
+NotebooksPanel:focus {
+    border: round #50FA7B;
+    border-title-color: #50FA7B;
+}
+
+TreePanel {
+    border: round #888888;
+    border-title-color: #888888;
+    border-title-style: bold;
+    height: 1fr;
+    color: #F8F8F2;
+}
+
+TreePanel:focus {
+    border: round #50FA7B;
+    border-title-color: #50FA7B;
+}
+
+PreviewPanel {
+    border: round #888888;
+    border-title-color: #888888;
+    border-title-style: bold;
+    width: 1fr;
+    color: #F8F8F2;
+    scrollbar-size-vertical: 1;
+    scrollbar-color: #555555;
+    scrollbar-color-active: #50FA7B;
+    scrollbar-color-hover: #50FA7B;
+}
+
+PreviewPanel:focus {
+    border: round #50FA7B;
+    border-title-color: #50FA7B;
+}
+
+#status {
+    height: 1;
+    color: #555555;
+    background: #282A36;
+    padding: 0 1;
+}
+
+/* ---- Modals ---- */
+
+InputModal, ConfirmModal, HelpModal, LinkPickModal, SearchModal {
+    align: center middle;
+    background: black 25%;
+}
+
+#dialog {
+    border: round #50FA7B;
+    border-title-color: #50FA7B;
+    border-title-style: bold;
+    background: #282A36;
+    padding: 1 2;
+    height: auto;
+}
+
+InputModal #dialog {
+    width: 72;
+}
+
+ConfirmModal #dialog {
+    width: 72;
+}
+
+HelpModal #dialog {
+    width: 52;
+    max-height: 80%;
+}
+
+LinkPickModal #dialog {
+    width: 56;
+    max-height: 80%;
+}
+
+SearchModal #dialog {
+    width: 90%;
+    height: 80%;
+}
+
+#dialog Input {
+    background: #44475A;
+    color: #F8F8F2;
+    border: none;
+    padding: 0 1;
+    margin: 0 0 1 0;
+}
+
+#prompt, #confirm-msg {
+    text-style: bold;
+    margin: 0 0 1 0;
+}
+
+#confirm-msg {
+    color: #F1FA8C;
+}
+
+#hint {
+    color: #555555;
+    margin: 1 0 0 0;
+}
+
+#search-results {
+    width: 2fr;
+    height: 1fr;
+}
+
+#search-preview {
+    width: 3fr;
+    height: 1fr;
+    border-left: solid #555555;
+    padding: 0 1;
+}
+
+#help-body, #linkpick-body {
+    height: auto;
+}

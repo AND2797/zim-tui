@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-01-01T00:00:00+00:00
+
+====== Research ======
+
+===== Terminal UI libraries =====
+
+**Bubble Tea** ([[https://github.com/charmbracelet/bubbletea|charmbracelet/bubbletea]])
+An Elm-inspired framework for terminal apps in Go. Uses a message-passing model — all state lives in a single ``Model`` struct.
+
+**Lipgloss** ([[https://github.com/charmbracelet/lipgloss|charmbracelet/lipgloss]])
+Style and layout library for terminal output. Handles colour, borders, padding, and alignment.
+
+----
+
+===== Notes on Zim file format =====
+
+Zim pages are plain ``.txt`` files with a short header:
+
+	Content-Type: text/x-zim-wiki
+	Wiki-Format: zim 0.6
+	Creation-Date: <ISO 8601>
+
+Markup is lightweight — headings use ``=`` signs, links use ``[[double brackets]]``. The format is intentionally simple so pages remain readable as plain text.
+
+Notebooks are identified by a ``notebook.zim`` INI file in the root directory.

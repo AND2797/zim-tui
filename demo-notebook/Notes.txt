@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-01-01T00:00:00+00:00
+
+====== Notes ======
+
+A collection of notes. Sub-pages live below this one in the tree.
+
+* [[Notes:Meeting Notes]] — weekly syncs and decisions
+* [[Notes:Research]]  — background reading and references

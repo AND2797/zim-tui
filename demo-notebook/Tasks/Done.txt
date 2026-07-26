@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-01-01T00:00:00+00:00
+
+====== Done ======
+
+[x] Initial project setup
+[x] Design system architecture
+[x] Implement authentication
+[x] Deploy to staging
+[x] Security review
+[x] Write release notes

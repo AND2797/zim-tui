@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-01-01T00:00:00+00:00
+
+====== Meeting Notes ======
+
+===== 2024-01-15 — Weekly sync =====
+
+**Attendees:** Alice, Bob, Carol
+
+**Agenda**
+
+1. Review last sprint
+2. Plan next sprint
+3. Blockers
+
+----
+
+**Notes**
+
+Alice confirmed the //API redesign// is complete. Bob raised a concern about __backwards compatibility__ — agreed to keep the old endpoint alive until Q2.
+
+Carol is blocked on the database migration. Assigned to Bob to unblock by end of week.
+
+**Action items**
+
+* Alice — write migration guide
+* Bob — unblock Carol's DB migration
+* Carol — draft Q2 roadmap
+
+----
+
+===== 2024-01-08 — Kickoff =====
+
+First meeting of the year. Agreed on the following priorities:
+
+1. Ship the new search feature
+2. Reduce p95 latency below 200ms
+3. Hire two engineers by March

@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-01-01T00:00:00+00:00
+
+====== Tasks ======
+
+* [[Tasks:Active]] — in-progress work
+* [[Tasks:Done]] — completed items
