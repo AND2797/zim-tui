@@ -26,7 +26,7 @@ Built with [Textual](https://textual.textualize.io/).
 ## Requirements
 
 - Python 3.11+
-- [`uv`](https://docs.astral.sh/uv/) (for development / running from source)
+- [`uv`](https://docs.astral.sh/uv/) (for the uv-based install below) or `conda` + `pip` (alternative)
 - `rg` (ripgrep) — for content search
 - `$EDITOR` set, or vim in `$PATH`
 
@@ -50,6 +50,18 @@ Or install the console script into a tool environment:
 
 ```bash
 uv tool install .
+zim-tui /path/to/notebook
+```
+
+With conda:
+
+```bash
+git clone <repo-url> zim-tui
+cd zim-tui
+conda create -n zim-tui python=3.11
+conda activate zim-tui
+pip install -e .
+
 zim-tui /path/to/notebook
 ```
 
@@ -109,6 +121,13 @@ Run the tests:
 
 ```bash
 uv run pytest
+```
+
+With conda (after `pip install -e .` above):
+
+```bash
+pip install -e ".[dev]"
+pytest
 ```
 
 The suite covers the pure-logic layers (notebook I/O, config, markup, search, tree state) plus headless Textual smoke and action tests driven through the app's `Pilot`.
